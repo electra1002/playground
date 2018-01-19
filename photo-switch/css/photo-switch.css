@@ -9,3 +9,12 @@
 input[type=radio]:not(:checked) + .container {
     display: none;
 }
+
+#photo-switch {
+    position: relative;
+}
+
+input[type=radio] {
+    position: absolute;
+    left: -1000px;
+}
