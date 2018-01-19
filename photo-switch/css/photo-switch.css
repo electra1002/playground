@@ -1,0 +1,11 @@
+.image {
+    max-width: 640px;
+}
+
+.image img {
+    width: 100%;
+}
+
+input[type=radio]:not(:checked) + .container {
+    display: none;
+}
